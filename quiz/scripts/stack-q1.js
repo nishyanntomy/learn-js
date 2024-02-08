@@ -12,9 +12,15 @@ class PStack {
 }
 
 class PStackImpl extends PStack {
+  #persons = []
   constructor() {
     super();
   }
+
+  set persons(persons){
+    this._persons = persons;
+  }
+  
 
   push(p) {
     return this._persons.push(p)

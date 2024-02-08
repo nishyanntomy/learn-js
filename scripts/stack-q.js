@@ -9,6 +9,7 @@ class PStack {
     return this.#id;
   }
 
+
   push(p) {
     // implement in child class
   }
